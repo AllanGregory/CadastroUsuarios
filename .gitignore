@@ -1,0 +1,24 @@
+## Diretórios padrão do Visual Studio ##
+.vs/
+*.user
+*.suo
+
+## Diretórios de build ##
+bin/
+obj/
+TestResults/
+
+## Configurações do Rider (caso use) ##
+.idea/
+
+## Outros arquivos que não devem ser versionados ##
+*.log
+*.DS_Store
+Thumbs.db
+
+## Arquivos gerados por testes ##
+*.trx
+
+## Pacotes NuGet (não são obrigatórios, pois podem ser restaurados) ##
+*.nupkg
+packages/
